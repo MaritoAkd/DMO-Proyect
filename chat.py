@@ -5,7 +5,7 @@ from datetime import datetime
 
 # Configuración de Gemini
 genai.configure(api_key="AIzaSyCkAy_bWVR-iuJe4GjRGNoG3HwNrYntnjg")  # Cambia tu API KEY aquí
-modelo = genai.GenerativeModel("gemini-2.0-flash")
+modelo = genai.GenerativeModel("gemini-1.5-flash")
 
 # Carga del historial
 historial_file_path = os.path.join(os.path.dirname(__file__), "historial_tmo.txt")
